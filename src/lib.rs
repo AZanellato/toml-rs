@@ -160,7 +160,7 @@ pub use crate::ser::{to_string, to_string_pretty, to_vec, Serializer};
 pub mod de;
 #[doc(no_inline)]
 pub use crate::de::{from_slice, from_str, Deserializer};
-mod tokens;
+pub mod tokens;
 
 #[doc(hidden)]
 pub mod macros;
